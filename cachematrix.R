@@ -6,6 +6,7 @@
 
 ## makeCacheMatrix() creates a special matrix object
 
+
 makeCacheMatrix <- function(x = matrix()) {
     
     inverse_x <- NULL
@@ -26,6 +27,7 @@ makeCacheMatrix <- function(x = matrix()) {
 ##cacheSolve()calculates the inverse of special matrix returned by makeCacheMatrix()
 ## If the cached inverse is available, cacheSolve retrieves it, while if
 ## not, it computes, caches, and returns it.
+
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
